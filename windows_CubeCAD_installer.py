@@ -32,7 +32,7 @@ def build_windows_installer():
         '--windowed',  # For GUI applications
         '--onedir',    # Create a directory with all dependencies
         '--add-data=icons/*;icons/',  # Include icon resources
-        '--icon=icons/place_cube_active.png',  # Set application icon
+        '--icon=icons/CubeCAD_logo.png',  # Set application icon
         'CubeCAD.py'
     ]
     
